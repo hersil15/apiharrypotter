@@ -1,0 +1,58 @@
+body {
+  font-family: 'MagicSchool', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #1a1aff;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+  flex: 1 1 calc(45% - 2em);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#gryffindor {
+  background-color: #ef5a5a; /* Rojo Gryffindor */
+}
+
+#hufflepuff {
+  background-color: #eeee97; /* Amarillo Hufflepuff */
+}
+
+#ravenclaw {
+  background-color: #7272e6; /* Azul Ravenclaw */
+}
+
+#slytherin {
+  background-color: #a5eda5; /* Verde Slytherin */
+}
+
+h2 {
+  color: #f5a106;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'MagicSchool';
+  src: url('fonts/MagicSchool.ttf') format('truetype');
+}
